@@ -61,4 +61,37 @@ The application follows Laravel’s MVC architecture and standard development pr
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/your-username/invoice-system.git
+   git clone https://github.com/your-username/invoice-system.githttps://github.com/your-username/invoice-system.git
+
+2. Go to the project folder
+
+cd invoice-system
+
+
+3. Install dependencies
+
+composer install
+
+
+4. Create environment file
+
+cp .env.example .env
+
+
+5. Generate application key
+
+php artisan key:generate
+
+
+6. Configure database credentials in .env
+
+
+7. Run migrations
+
+php artisan migrate
+
+
+8. Start the development server
+
+php artisan serve
+
